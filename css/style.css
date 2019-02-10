@@ -17,6 +17,10 @@ body {
   border: #000000;
 }
 
+.convert-form__area::placeholder {
+  color: #eeeeee;
+}
+
 .convert-form__btn {
   padding: 20px 30px 20px;
   cursor: pointer;
