@@ -1,0 +1,34 @@
+@import url(http://allfont.ru/allfont.css?fonts=courier);
+
+body {
+  background-color: #484848;
+}
+
+.convert-form {
+  text-align: center;
+}
+
+.convert-form__area {
+  width: 49%;
+  height: 50vh;
+  font-family: 'Courier', arial, sans-serif;
+  color: #eeeeee;
+  background-color: #343434;
+  border: #000000;
+}
+
+.convert-form__btn {
+  padding: 20px 30px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #cccccc;
+  background-color: #00033E;
+  opacity: 0.3;
+  border: none;
+  transition: 0.2s;
+}
+
+.convert-form__btn:hover {
+  opacity: 1;
+}
